@@ -10,6 +10,7 @@ name = "pypi"
 tornado = "*"
 "jinja2" = "*"
 queries = "*"
+"markdown2" = "*"
 
 
 [dev-packages]

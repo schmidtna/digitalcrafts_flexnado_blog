@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Submit a Comment{{ post['title'] }}{% endblock %}
+{% block content %}
+<h1>Submit a Comment for: {{ post['title'] }}</h1>
+<form action="" method="POST">
+    <textarea name="comment"></textarea>
+    <br>
+    <button type="submit">Comment</button>
+</form>
+
+{% endblock %}
